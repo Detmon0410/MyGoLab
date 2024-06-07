@@ -1,14 +1,12 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/google/uuid"
+	"github.com/detmon/golab/sayhi"
 )
 
 func main() {
-	id := uuid.New()
-	fmt.Println(" Hello World 3 ")
-	fmt.Printf(" uuid : %s", id)
+
+	sayhi.SayHiDetmon()
+	sayhi.SayTest()
 
 }
